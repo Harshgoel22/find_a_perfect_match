@@ -1,0 +1,140 @@
+/* brand name */
+p {
+  color: #fff;
+  font-family: 'Great Vibes','cursive','sans-serif';
+  font-size: 60px;
+  margin-left: 15%;
+}
+
+span{
+  color: #fff;
+  font-size: 20px;
+}
+
+
+li{
+  color: #fff;
+  margin:4px;
+  padding: 3px;
+}
+
+/* help icon */
+.help{
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 10px;
+  border-color: #fff;
+}
+
+/* navbar  */
+.nav{
+  display: flex;
+  padding: 3% 2%;
+  align-items: center;
+  background: linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4));
+  padding-bottom: 0;
+  padding-top: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+  height: 120px;
+}
+
+.nav ul{
+  list-style: none;
+  display: inline;
+  text-align: right;
+  flex:1;
+  margin-right: 15%;
+}
+
+.nav ul li{
+  display: inline-flex;
+  margin: 30px 26px;
+}
+
+.nav li a{
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.nav li a:hover{
+  text-decoration: underline;
+}
+
+/* collection */
+ /* tagName */
+.tag{
+  color:#fff;
+  font-size: 30px;
+  text-align: center;
+  letter-spacing: 1.5px;
+  animation-name: example;
+  animation-duration: 4s;
+  animation-delay: 0.2s;
+  animation-iteration-count: infinite;
+}
+
+/* animation */
+@keyframes example {
+  0%   {color: red;}
+  25%  {color: yellow;}
+  50%  {color: lightgreen;}
+  100% {color: lightblue;}
+}
+
+
+/* form */
+td{
+  color:#fff;
+}
+
+.form1{
+  display: flex;
+  background: linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4));
+}
+
+.form1 ul {
+  list-style: none;
+  display: inline-flex;
+}
+
+table{
+  display: inline-flex;
+  margin-left: 40%;
+}
+
+/* text boxes */
+.first{
+  width: 150px;
+  height: 30px;
+  border-radius: 4px;
+}
+
+.second{
+  width: 70px;
+  height: 30px;
+  border-radius: 4px;
+}
+
+.third{
+  width: 200px;
+  height: 30px;
+  border-radius: 4px;
+}
+
+/* lets begin button */
+.btn{
+  width: 170px;
+  height: 30px;
+  border-radius: 4px;
+  color: #fff;
+  background-color: #40DFEF;
+}
+.btn:hover{
+  background-color: #30AADD;
+}
+
+.collection{
+  margin-top: 25%;
+}

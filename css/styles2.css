@@ -1,0 +1,37 @@
+.form{
+  border: 1px solid;
+  height: 70%;
+  width: 30%;
+  margin:8% auto;
+  background-color: #DAEAF1;
+}
+
+.cent{
+  text-align: center;
+  margin: 5%;
+}
+
+.submit{
+  margin:2% 32%;
+  color: #fff;
+  background-color: #40DFEF;
+  border-radius: 4px;
+  height: 30px;
+  width: 160px;
+}
+
+.cent_img{
+  margin:20px 37%;
+}
+
+.text{
+  margin: 5%;
+}
+
+.btn,.box{
+  margin-left: 5%;
+}
+
+body a{
+  margin-left: 37%;
+}
